@@ -88,10 +88,7 @@
 
                 count += 1;
 
-		syncronized(session){
-			new Thread().sleep(100);
-			session.setAttribute("count", count);
-		}
+		session.setAttribute("count", count);
 
                 out.println(session.getId() + "     :     " + count);
         %>
