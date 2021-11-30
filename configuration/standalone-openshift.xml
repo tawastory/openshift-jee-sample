@@ -105,10 +105,10 @@
                 <level name="DEBUG"/>
             </logger>
             <logger category="org.jgroups">
-                <level name="TRACE"/>
+                <level name="WARN"/>
             </logger>
             <logger category="org.infinispan">
-                <level name="TRACE"/>
+                <level name="WARN"/>
             </logger>
             <logger category="sun.rmi">
                 <level name="WARN"/>
