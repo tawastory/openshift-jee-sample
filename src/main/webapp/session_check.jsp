@@ -3,6 +3,9 @@
 <%@ page import="java.text.*"%>
 <%@ page import="java.util.*"%>
 <%
+	
+	String name = request.getParameter("name");
+	
         String RsessionId = request.getRequestedSessionId();
         String sessionId = session.getId();
         boolean isNew = session.isNew();
