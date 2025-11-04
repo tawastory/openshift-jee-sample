@@ -4,6 +4,8 @@ USER root
 COPY configuration/standalone-openshift.xml /opt/eap/standalone/configuration/standalone-openshift.xml
 COPY configuration/standalone.conf /opt/eap/bin/standalone.conf
 
+COPY ./scouter /opt/eap/ 
+
 RUN chown -R jboss:root /opt/eap
 USER jboss
 
